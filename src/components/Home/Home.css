@@ -1,0 +1,134 @@
+.home-container {
+    background: linear-gradient(39.97deg, #d0ff25 0.79%, #17f0ff 79.29%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    padding: 100px 10%;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header-text>h1 {
+    /* font-family: */
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3em;
+    line-height: 62px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: rgb(194, 150, 122);
+    margin: 10px;
+}
+
+.header-text>p {
+    font-family: monospace;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 20px;
+    color: #bfabf5;
+    margin: 10px;
+}
+
+.landing-header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.typewriter-container {
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+.head-btns {
+    /* font-family: monospace;
+    font-size: large;
+    font-weight: bold; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 35px 10px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 36px;
+    height: 52px;
+    left: 0;
+    top: 0px;
+    text-decoration: none;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    margin: 4px;
+}
+
+.btn-white {
+    background: #fff;
+    color: #112d57;
+}
+
+.btn-transparent {
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.btn:hover {
+    box-shadow: 1px 10px 32px rgba(0, 0, 0, 0.45);
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-text {
+    font-family: monospace;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.splash-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-anime {
+    margin-bottom: -80px;
+}
+
+
+/* For small height screen sizes */
+
+@media only screen and (max-height: 550px) {
+    .home-anime {
+        width: 400px;
+    }
+}
+
+
+/* For small width screens */
+
+@media only screen and (max-width: 640px) {
+    .home-anime {
+        width: 80%;
+        align-self: center;
+        margin-bottom: -20px;
+    }
+    .head-btns {
+        margin: 10px 10px 35px 10px;
+    }
+}
