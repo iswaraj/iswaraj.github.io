@@ -30,6 +30,12 @@ const About = () => {
                         Computer Science and Engineering  at B. P. Poddar Institute
                         of Management and Technology. I have completed my 12th from
                         Bankura Zilla School and 10th from Purulia M. M. High School.
+                        <br />
+                        I have good knowledge in languages like java, c# , html, css, javascript ,Python, C,C++,.
+                        I have knowledge in the field of Cloud Computing (including Amazon Web Services and Google
+                        Cloud Platform),cyber security,ethical hacking, microsoft office, ubuntu, kali linux, linux mint.
+                        I am a good photographer and also photo and video editor.
+                        I have done more than 50 courses from Coursera including specialization on MERN stack, Cyber Security, AWS, Java, GCP.
                     </p>
                     {/* can add more subsections here */}
 
