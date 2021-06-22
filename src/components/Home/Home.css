@@ -1,5 +1,5 @@
 .home-container {
-    background: linear-gradient(39.97deg, #d0ff25 0.79%, #17f0ff 79.29%);
+    background: linear-gradient(39.97deg, #0400ff 0.79%, #8f00c8 79.29%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,6 +8,7 @@
     padding: 100px 10%;
     min-height: 100vh;
     box-sizing: border-box;
+    margin-right: 0%;
 }
 
 .header-text {
@@ -24,7 +25,7 @@
     line-height: 62px;
     text-align: center;
     letter-spacing: 0.2px;
-    color: rgb(194, 150, 122);
+    color: rgb(255, 255, 255);
     margin: 10px;
 }
 
@@ -130,5 +131,25 @@
     }
     .head-btns {
         margin: 10px 10px 35px 10px;
+    }
+}
+
+
+/* glow */
+
+.glow {
+    font-size: 20px;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
 }

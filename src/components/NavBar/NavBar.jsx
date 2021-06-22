@@ -18,7 +18,12 @@ class NavBar extends React.Component {
 
 
         return (
-            <Menu>
+            <Menu
+                right
+                customBurgerIcon={< img className="burger-icon-custom" src="https://image.flaticon.com/icons/png/512/2948/2948066.png" />}
+                customCrossIcon={< img className="cross-custom-icon" src="https://image.flaticon.com/icons/png/512/458/458594.png" />}
+
+            >
                 {/* We don't want to use <a> tag as it reload the page */}
                 {/* <a id="home" className="menu-item" href="/">Home</a>
                 <a id="about" className="menu-item" href="/about">About</a>
@@ -39,7 +44,7 @@ class NavBar extends React.Component {
                 <Link to='/contact' className={`menu-item ${contactClass}`}>
                     Contact
                 </Link>
-            </Menu>
+            </Menu >
         );
     }
 }

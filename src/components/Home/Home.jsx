@@ -27,19 +27,19 @@ class Home extends Component {
         return (
             <div className="home-container">
                 {/* {this.state.showModal && < Modal closeModal={this.closeModal} />} */}
-                <div className="header-text">
+                <div className="header-text glow">
                     <h1>Hello World</h1>
-                    <p>from Swaraj</p>
-                    <br />
+                    <p></p>
                     <br />
                 </div>
+
                 <div className="landing-container">
                     <div data-aos="fade-right" className="landing-left">
                         <h1 className="landing-header">Hey! I am Swaraj</h1>
                         <div className="typewriter-container">
                             <Typewriter
                                 options={{
-                                    strings: ["Programmer!", "Developer!", "Learner!"],
+                                    strings: ["Programmer!", "Developer!", "Learner!", "Friend!"],
                                     autoStart: true,
                                     loop: true,
                                 }}
