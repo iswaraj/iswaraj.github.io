@@ -8,6 +8,22 @@
     margin: 80px 20%;
 }
 
+.my-resume-heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.resume-button {
+    width: 50px;
+    filter: drop-shadow(0px 8px 8px rgba(46, 33, 33, 0.5));
+}
+
+.resume-button:hover {
+    width: 50px;
+    filter: drop-shadow(0px 12px 12px rgba(46, 33, 33, 0.75));
+}
+
 .skill {
     display: flex;
     flex-direction: column;

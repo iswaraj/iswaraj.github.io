@@ -51,7 +51,7 @@ const About = () => {
             </div>
 
             < FooterLink
-                phrase="Check out my"
+                phrase="Check out my "
                 link="projects"
                 toAdress="/projects" />
 

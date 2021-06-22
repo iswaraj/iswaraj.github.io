@@ -15,6 +15,17 @@ const Skills = () => {
                 details=" "
             />
 
+            <div className="my-resume">
+                <h2 className="my-resume-heading">
+                    Click &nbsp;
+                    <a href="https://drive.google.com/drive/folders/1BCPtVYge5c4aM4Lk2LyuldH46E3DUbZx?usp=sharing">
+                        <img src="https://image.flaticon.com/icons/png/512/4954/4954298.png" alt="resume" className="resume-button" />
+                    </a>
+                    &nbsp;  to download my resume
+                </h2>
+
+            </div>
+
             <div className="skill-card-container">
                 {
                     skillList.map(({ skillName, skillUrl }) => {
