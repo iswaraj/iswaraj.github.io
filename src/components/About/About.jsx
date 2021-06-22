@@ -31,7 +31,8 @@ const About = () => {
                         of Management and Technology. I have completed my 12th from
                         Bankura Zilla School and 10th from Purulia M. M. High School.
                         <br />
-                        I have good knowledge in languages like java, c# , html, css, javascript.
+                        I have good knowledge in languages like java, c# , html, css, javascript. I am pretty familier with
+                        Git and Github version control system.
                         I have some knowledge in the fields of Cloud Computing (including Amazon Web Services and Google
                         Cloud Platform),cyber security, microsoft office. I have used OS like windows, ubuntu, kali linux, linux mint.
                         Besides I am a good photographer and also photo and video editor.

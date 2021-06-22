@@ -11,6 +11,10 @@ export const skillList = [{
         skillUrl: 'https://icons-for-free.com/download-icon-vscode+icons+type+sql-1324451491579630520_512.png',
     },
     {
+        skillName: 'Git and Github',
+        skillUrl: 'https://image.flaticon.com/icons/png/512/889/889192.png',
+    },
+    {
         skillName: 'Software Development',
         skillUrl: 'https://img.icons8.com/nolan/96/computer.png',
     },

@@ -20,7 +20,7 @@ class NavBar extends React.Component {
         return (
             <Menu
                 right
-                customBurgerIcon={< img className="burger-icon-custom" src="https://image.flaticon.com/icons/png/512/2948/2948066.png" />}
+                customBurgerIcon={< img className="burger-icon-custom " src="https://image.flaticon.com/icons/png/512/2948/2948066.png" />}
                 customCrossIcon={< img className="cross-custom-icon" src="https://image.flaticon.com/icons/png/512/458/458594.png" />}
 
             >
