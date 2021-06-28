@@ -67,7 +67,7 @@
 /* General sidebar styles */
 
 .bm-menu {
-    background: linear-gradient(45deg, #00aeff 5%, hsl(189, 100%, 56%) 75%);
+    background: linear-gradient(90deg, #a27aeb 10%, hsl(335, 82%, 59%) 75%);
     padding: 2.5em 1.5em 0;
     height: 100vh;
     overflow: hidden !important;

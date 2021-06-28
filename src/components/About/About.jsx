@@ -4,6 +4,7 @@ import FooterLink from '../FooterLink/FooterLink';
 import './About.css';
 import aboutVector from './../../assets/about_vector.png';
 import aboutAnime from './../../assets/about_anime.gif';
+import Bounce from 'react-reveal/Bounce';
 
 
 const About = () => {
@@ -19,6 +20,7 @@ const About = () => {
                 <div className="about-main-left">
                     {/* subsection 1*/}
                     <h3 className='about-sub-head'>About</h3>
+                    <Bounce left>
                     <p className='about-details'>
                         I am Swaraj Khan, Pre-final year CS Undergrad. I like to play with
                         new technologies.
@@ -40,7 +42,7 @@ const About = () => {
                         I have done more than 50 courses from Coursera including specialization on MERN stack, Cyber Security, AWS, Java, GCP.
                     </p>
                     {/* can add more subsections here */}
-
+                    </Bounce>
                 </div>
                 <div className="about-main-right">
                     {/* added animation */}

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Projects.css';
-
+import Bounce from 'react-reveal/Bounce';
 const ProjectCard = ({
     projectName,
     projectDescription,
@@ -10,6 +10,7 @@ const ProjectCard = ({
 
 }) => {
     return (
+        <Bounce bottom>
         <div className="project-card">
             <div className="image-container">
                 <a href={projectUrl} className="project-external-link">
@@ -29,6 +30,7 @@ const ProjectCard = ({
                 </a> */}
             </div>
         </div>
+        </Bounce>
     );
 }
 
