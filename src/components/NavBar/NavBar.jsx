@@ -2,6 +2,14 @@ import React from 'react';
 import './NavBar.css';
 import { slide as Menu } from 'react-burger-menu';
 import { Link, withRouter } from 'react-router-dom';
+import { FcHome } from 'react-icons/fc';
+import {FcAbout} from 'react-icons/fc';
+import { FcVideoProjector} from 'react-icons/fc';
+import {GiSkills} from 'react-icons/gi';
+import {FcContacts} from 'react-icons/fc';
+
+  
+
 
 class NavBar extends React.Component {
     render() {
@@ -30,19 +38,19 @@ class NavBar extends React.Component {
                 <a id="contact" className="menu-item" href="/contact">Contact</a> */}
 
                 <Link to='/' className={`menu-item ${homeClass}`}>
-                    Home
+                <FcHome /> Home
                 </Link>
                 <Link to='/about' className={`menu-item ${aboutClass}`}>
-                    About
+                   <FcAbout/>About
                 </Link>
                 <Link to='/projects' className={`menu-item ${projectsClass}`}>
-                    Projects
+                  <FcVideoProjector/>  Projects
                 </Link>
                 <Link to='/skills' className={`menu-item ${skillsClass}`}>
-                    Skills
+                  <GiSkills/>  Skills
                 </Link>
                 <Link to='/contact' className={`menu-item ${contactClass}`}>
-                    Contact
+                  <FcContacts />  Contact
                 </Link>
             </Menu >
         );
