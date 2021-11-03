@@ -39,6 +39,20 @@ const Skills = () => {
 
             </div>
 
+            <div className="certificate-container normal-font">
+                <h3 className="certificate-sub-head">Major Certification </h3>
+                <p>[Click to verify]</p>
+                <li><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/FBME4PBDWSFE">Web Design for Everybody: Basics of Web Development &amp; Coding Specialization (Coursera &amp; University of Michigan)</a></li>
+                <li><a href="https://www.coursera.org/account/accomplishments/certificate/N2AJEWHPM7MT">Java Programming: Solving Problems with Software (Coursera &amp; Duke University)</a></li>
+                <li><a href="https://www.coursera.org/account/accomplishments/certificate/9YZSMU7T4GYZ">SQL for Data Science (Coursera &amp; University of California, Davis)</a></li>
+                <li><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/PCCANQ99UHTU">Full-Stack Web Development with React (Coursera &amp; The Hong Kong University of Science and Technology)</a></li>
+                <li><a href="https://www.coursera.org/account/accomplishments/certificate/ESESE9E2496A">Java for Android (Coursera &amp; Vanderbilt University)</a></li>
+                <li><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/AGTKPVXUDNV6">AWS Fundamentals Specialization (Coursera &amp; AWS)</a></li>
+                <li><a href="https://www.coursera.org/account/accomplishments/certificate/MC79HDZD9DFV">Google Cloud Platform Big Data and Machine Learning Fundamentals (Coursera &amp; Google Cloud)</a></li>
+                <li><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/PARQBRP2593T">Cybersecurity for Business Specialization (Coursera &amp; University of Colorado System)</a></li>
+                <li><a href="https://www.coursera.org/account/accomplishments/certificate/RHTL95YAWJKB">Blockchain Basics (Coursera &amp; University at Buffalo, The State University of New York)</a></li>
+            </div>
+
             < FooterLink
                 phrase="Get in " link="touch." toAdress="/contact"
             />
