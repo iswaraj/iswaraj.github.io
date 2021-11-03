@@ -36,6 +36,8 @@ const About = () => {
                     </li>
                     <li className="normal-font">50+ MOOCS Courses on COURSERA on different domains i.e., JAVA, Python, Web Development, Cyber Security, Big Data, Block Chain, GCP, AWS etc.</li>
 
+
+
                 </div>
                 <div className="about-main-right">
                     {/* added animation */}
@@ -45,9 +47,13 @@ const About = () => {
                     />
 
                 </div>
-                <div>
-                    <h3 className='about-sub-head'>Academics</h3>
-                    <table class="styled-table">
+            </div>
+
+            <div>
+                
+
+            <h3 className='about-sub-head'>Academics</h3>
+                    <table class="styled-table flex-table">
                         <thead>
                             <tr>
                             <th scope="col">#</th>
@@ -61,32 +67,32 @@ const About = () => {
                         <tbody>
                             <tr>
                             <th scope="row">1</th>
-                            <td>B P Poddar Institute of Management and Technology,Kolkata, W.B</td>
-                            <td>B. Tech. in Computer Science and Engineering</td>
-                            <td>MAKAUT(Formerly WBUT)</td>
-                            <td>8.897 (Avg. till 6th Semester)</td>
-                            <td>2022[Expected]</td>
+                            <td data-label="College">B P Poddar Institute of Management and Technology,Kolkata, W.B</td>
+                            <td data-label="Degree">B. Tech. in Computer Science and Engineering</td>
+                            <td data-label="University">MAKAUT(Formerly WBUT)</td>
+                            <td data-label="CGPA">8.897 (Avg. till 6th Semester)</td>
+                            <td data-label="Year of Passing">2022[Expected]</td>
                             </tr>
                             <tr>
                             <th scope="row">2</th>
-                            <td>Bankura Zilla School,Bankura, W.B.</td>
-                            <td>Higher Secondary Examination (12th) </td>
-                            <td>WBCHSE</td>
-                            <td>86.60 &#37;</td>
-                            <td>2017</td>
+                            <td data-label="School">Bankura Zilla School,Bankura, W.B.</td>
+                            <td data-label="Degree">Higher Secondary Examination (12th) </td>
+                            <td data-label="Board">WBCHSE</td>
+                            <td data-label="Percentage">86.60 &#37;</td>
+                            <td data-label="Year of Passing">2017</td>
                             </tr>
                             <tr>
                             <th scope="row">3</th>
-                            <td>Purulia M. M. High School,Purulia, W.B.</td>
-                            <td>Madhyamik Examination (10th)</td>
-                            <td>WBBSE</td>
-                            <td>93.14 &#37;</td>
-                            <td>2015</td>
+                            <td data-label="School">Purulia M. M. High School,Purulia, W.B.</td>
+                            <td data-label="Degree">Madhyamik Examination (10th)</td>
+                            <td data-label="Board">WBBSE</td>
+                            <td data-label="Percentage">93.14 &#37;</td>
+                            <td data-label="Year of Passing">2015</td>
                             </tr>
                         </tbody>
                     </table>
-                </div>
             </div>
+
 
             < FooterLink
                 phrase="Check out my "
