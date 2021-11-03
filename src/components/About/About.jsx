@@ -52,7 +52,7 @@ const About = () => {
             <div>
                 
 
-            <h3 className='about-sub-head'>Academics</h3>
+            <h3 className='acad-sub-head about-sub-head'>Academics</h3>
                     <table class="styled-table flex-table">
                         <thead>
                             <tr>

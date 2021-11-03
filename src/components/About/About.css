@@ -60,6 +60,11 @@
     font-family: roboto;
 }
 
+/* to add some padding to academics */
+.acad-sub-head {
+    padding-left: 25px;
+}
+
 /* Style the table */
 /* .table-flex {
     display: flex;
@@ -107,7 +112,7 @@
     color: #009879;
 }
 
-/* xyz */
+/* table styles for responsiveness */
 .flex-table {
     display: flex;
     flex-direction: column;
