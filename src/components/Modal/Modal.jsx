@@ -17,7 +17,7 @@ const Modal = ({ closeModal }) => {
 
                 </div>
                 <div className="lower-section">
-                    <a onClick={closeModal} className="modal-btn btn-green">Continue</a>
+                    {/* <a onClick={closeModal} className="modal-btn btn-green">Continue</a> */}
 
 
                 </div>

@@ -15,7 +15,7 @@ const Skills = () => {
                 details=" "
             />
 
-            <div className="my-resume">
+            {/* <div className="my-resume">
                 <h2 className="my-resume-heading">
                     Click &nbsp;
                     <a href="https://drive.google.com/drive/folders/1BCPtVYge5c4aM4Lk2LyuldH46E3DUbZx?usp=sharing">
@@ -24,7 +24,7 @@ const Skills = () => {
                     &nbsp;  to download my resume
                 </h2>
 
-            </div>
+            </div> */}
 
             <div className="skill-card-container">
                 {

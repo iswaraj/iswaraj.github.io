@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
 import homeAnime from './../../assets/home_anime.gif';
-import Modal from '../Modal/Modal';
+// import Modal from '../Modal/Modal';
 import Typewriter from "typewriter-effect";
 
 class Home extends Component {
@@ -54,6 +54,9 @@ class Home extends Component {
                     <Link to="/contact" className="btn btn-transparent">
                         <p className="btn-text">Contact with me</p>
                     </Link>
+                    <a href="https://drive.google.com/drive/folders/1BCPtVYge5c4aM4Lk2LyuldH46E3DUbZx?usp=sharing" className="btn btn-white">
+                            <p className="btn-text">Download my CV</p>
+                    </a>
                 </div>
                 <div className="splash-image">
                     <img
