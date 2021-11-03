@@ -12,7 +12,7 @@ const About = () => {
             {/* <h1>I am the about page</h1> */}
             < Header
                 heading="Who Am I"
-                details="|GATE Qualified|Pre-final Year CSE Undergrad|Java Developer|SQL|GCP AWS|Web-Dev|"
+                details="| GATE Qualified | CSE '22 | Incoming Advanced ASE @ Accenture | National Topper @ Cognizant (Drive) | Ex-Intern @ TCS | 91%+@ TCS NQT | Web | Java | GIT | SQL | Cloud |"
             />
 
             <div className="about-main">
@@ -20,26 +20,21 @@ const About = () => {
                     {/* subsection 1*/}
                     <h3 className='about-sub-head'>About</h3>
                     <p className='about-details'>
-                        I am Swaraj Khan, Pre-final year CS Undergrad. I like to play with
+                        I am Swaraj, a final year CSE Undergrad. I like to play with
                         new technologies.
-                        {' '}
-                        {/* </p>
-                    <p className="about-details"> */}
-                        <br />
-                        My hometown is Bankura. I am currently studying B.Tech. in
-                        Computer Science and Engineering  at B. P. Poddar Institute
-                        of Management and Technology. I have completed my 12th from
-                        Bankura Zilla School and 10th from Purulia M. M. High School.
-                        <br />
-                        I have good knowledge in languages like java, c# , html, css, javascript. I am pretty familier with
-                        Git and Github version control system.
-                        I have some knowledge in the fields of Cloud Computing (including Amazon Web Services and Google
-                        Cloud Platform),cyber security, microsoft office. I have used OS like windows, ubuntu, kali linux, linux mint.
-                        Besides I am a good photographer and also photo and video editor.
-                        I am a keen learner and for that purpose I like to do courses in spare time.
-                        I have done more than 50 courses from Coursera including specialization on MERN stack, Cyber Security, AWS, Java, GCP.
+                        My hometown is Bankura, W.B. 
                     </p>
+                    <br/>
                     {/* can add more subsections here */}
+                    <h3 className='about-sub-head'>Achievements</h3>
+                    <li className="normal-font">GATE 2021 Qualified at Pre-final Year.</li>
+                    <li className="normal-font">National Top Learner (Rank 1) among the 20000+ participants from different colleges of India from the 
+                        second week of Cognizant Digital Nurture (National level Pre-Placement on-campus hiring by CTS) till the    
+                        end. And completed the whole learning material of 160 hours in two weeks.
+                    </li>
+                    <li className="normal-font">91.57% (1648.30/1800) in TCS NQT 2021(Feb) and87.6% (1576/1800) in TCS NQT 2020(Oct)
+                    </li>
+                    <li className="normal-font">50+ MOOCS Courses on COURSERA on different domains i.e., JAVA, Python, Web Development, Cyber Security, Big Data, Block Chain, GCP, AWS etc.</li>
 
                 </div>
                 <div className="about-main-right">
@@ -49,6 +44,47 @@ const About = () => {
                         className="about-anime"
                     />
 
+                </div>
+                <div>
+                    <h3 className='about-sub-head'>Academics</h3>
+                    <table class="styled-table">
+                        <thead>
+                            <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">College/School</th>
+                            <th scope="col">Degree</th>
+                            <th scope="col">University/Board</th>
+                            <th scope="col">CGPA/Percentage</th>
+                            <th scope="col">Year of Passing</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <th scope="row">1</th>
+                            <td>B P Poddar Institute of Management and Technology,Kolkata, W.B</td>
+                            <td>B. Tech. in Computer Science and Engineering</td>
+                            <td>MAKAUT(Formerly WBUT)</td>
+                            <td>8.897 (Avg. till 6th Semester)</td>
+                            <td>2022[Expected]</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">2</th>
+                            <td>Bankura Zilla School,Bankura, W.B.</td>
+                            <td>Higher Secondary Examination (12th) </td>
+                            <td>WBCHSE</td>
+                            <td>86.60 &#37;</td>
+                            <td>2017</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">3</th>
+                            <td>Purulia M. M. High School,Purulia, W.B.</td>
+                            <td>Madhyamik Examination (10th)</td>
+                            <td>WBBSE</td>
+                            <td>93.14 &#37;</td>
+                            <td>2015</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
 
