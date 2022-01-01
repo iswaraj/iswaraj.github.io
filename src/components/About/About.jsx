@@ -12,7 +12,7 @@ const About = () => {
             {/* <h1>I am the about page</h1> */}
             < Header
                 heading="Who Am I"
-                details="| GATE Qualified | CSE '22 | Incoming Advanced ASE @ Accenture | National Topper @ Cognizant (Drive) | Ex-Intern @ TCS | 91%+@ TCS NQT | Web | Java | GIT | SQL | Cloud |"
+                details="| GATE Qualified | CSE '22 | Incoming Advanced ASE @ Accenture | National Topper @ Cognizant (Drive) | Ex-Intern @ TCS | 91%+@ TCS NQT | Web | Java | GIT | SQL | Cloud | 8.5k+ Connections @ Linkedin |"
             />
 
             <div className="about-main">
