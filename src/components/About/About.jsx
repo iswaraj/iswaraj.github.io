@@ -12,7 +12,7 @@ const About = () => {
             {/* <h1>I am the about page</h1> */}
             < Header
                 heading="Who Am I"
-                details="| GATE Qualified | CSE '22 | Incoming Advanced ASE @ Accenture | National Topper @ Cognizant (Drive) | Ex-Intern @ TCS | 91%+@ TCS NQT | Web | Java | GIT | SQL | Cloud | 8.5k+ Connections @ Linkedin |"
+                details="| GATE Qualified | CSE '22 | Incoming Advanced ASE @ Accenture | National Topper @ Cognizant (Drive) | Ex-Intern @ TCS | 91%+@ TCS NQT | Web | Java | GIT | SQL | Cloud | 8.7k+ Connections @ Linkedin |"
             />
 
             <div className="about-main">
@@ -36,6 +36,7 @@ const About = () => {
                     </li>
                     <li className="normal-font">50+ MOOCS Courses on COURSERA on different domains i.e., JAVA, Python, Web Development, Cyber Security, Big Data, Block Chain, GCP, AWS etc.</li>
                     <li className="normal-font">Placement offers from Accenture (Advanced ASE), Cognizant (GenC Elevate), Infosys (System Engineer), Wipro (Project Engineer), Revature. </li>
+                    <li className="normal-font">93% percentile in AMCAT Test. </li>
 
 
 
