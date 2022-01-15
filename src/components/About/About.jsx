@@ -95,7 +95,6 @@ const About = () => {
                     </table>
             </div>
 
-
             < FooterLink
                 phrase="Check out my "
                 link="projects"
