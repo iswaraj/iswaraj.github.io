@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.8a7711e0.chunk.css",
-    "main.js": "/static/js/main.26d8771e.chunk.js",
-    "main.js.map": "/static/js/main.26d8771e.chunk.js.map",
+    "main.js": "/static/js/main.532c499c.chunk.js",
+    "main.js.map": "/static/js/main.532c499c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b83279d6.js",
     "runtime-main.js.map": "/static/js/runtime-main.b83279d6.js.map",
     "static/js/2.eda6380d.chunk.js": "/static/js/2.eda6380d.chunk.js",
@@ -14,13 +14,15 @@
     "static/media/about_anime.fd498367.gif": "/static/media/about_anime.fd498367.gif",
     "static/media/about_vector.c42fe3db.png": "/static/media/about_vector.c42fe3db.png",
     "static/media/contact_anime.1f3936c4.png": "/static/media/contact_anime.1f3936c4.png",
+    "static/media/cross-button.5cc943d2.png": "/static/media/cross-button.5cc943d2.png",
     "static/media/home_anime.150afb3f.gif": "/static/media/home_anime.150afb3f.gif",
+    "static/media/menu_button.c779ec8d.png": "/static/media/menu_button.c779ec8d.png",
     "static/media/skills_vector.1fb5f4a4.png": "/static/media/skills_vector.1fb5f4a4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b83279d6.js",
     "static/js/2.eda6380d.chunk.js",
     "static/css/main.8a7711e0.chunk.css",
-    "static/js/main.26d8771e.chunk.js"
+    "static/js/main.532c499c.chunk.js"
   ]
 }
