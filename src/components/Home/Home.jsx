@@ -46,6 +46,19 @@ class Home extends Component {
                             />
                         </div>
                     </div>
+                    <br /><br />
+                    <div data-aos="fade-right" className="placed landing-left">
+                        <h1 className='landing-header'>Placed at -</h1>
+                            <div className="typewriter-container">
+                                <Typewriter
+                                    options={{
+                                        strings: ["Accenture (Advanced ASE)", "Wipro (Turbo)", "Cognizant (GenC Elevate)", "Capgemini (Analyst)", "Infosys (System Engineer)", "Revature (SWE)"],
+                                        autoStart: true,
+                                        loop: true,
+                                    }}
+                                />
+                            </div>
+                    </div>
                 </div>
                 <div className="head-btns">
                     <Link to="/about" className="btn btn-white">

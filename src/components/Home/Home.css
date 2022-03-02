@@ -17,6 +17,11 @@
     text-align: center;
 }
 
+.placed{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
 .header-text>h1 {
     /* font-family: */
     font-style: normal;
