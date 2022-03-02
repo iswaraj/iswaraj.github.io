@@ -12,7 +12,7 @@ export const skillList = [{
     },
     {
         skillName: 'Git and Github',
-        skillUrl: 'https://image.flaticon.com/icons/png/512/889/889192.png',
+        skillUrl: 'https://cdn-icons-png.flaticon.com/512/733/733553.png',
     },
     {
         skillName: 'Software Development',

@@ -2,6 +2,8 @@ import React from 'react';
 import './NavBar.css';
 import { slide as Menu } from 'react-burger-menu';
 import { Link, withRouter } from 'react-router-dom';
+import menubtn from '../../assets/menu_button.png';
+import crossbtn from '../../assets/cross-button.png';
 
 class NavBar extends React.Component {
     render() {
@@ -20,8 +22,8 @@ class NavBar extends React.Component {
         return (
             <Menu
                 right
-                customBurgerIcon={< img className="burger-icon-custom " alt="Menu Button" src="https://image.flaticon.com/icons/png/512/2948/2948066.png" />}
-                customCrossIcon={< img className="cross-custom-icon" alt="Cros Button" src="https://image.flaticon.com/icons/png/512/458/458594.png" />}
+                customBurgerIcon={< img className="burger-icon-custom " alt="Menu Button" src={menubtn} />}
+                customCrossIcon={< img className="cross-custom-icon" alt="Cros Button" src={crossbtn} />}
 
             >
                 {/* We don't want to use <a> tag as it reload the page */}
