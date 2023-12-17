@@ -2,7 +2,7 @@
     "name": "portfolio",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://iswaraj.github.io/",
+    "homepage": "https://iamnupur.github.io/",
     "dependencies": {
         "@testing-library/jest-dom": "^5.14.1",
         "@testing-library/react": "^11.2.7",
@@ -44,6 +44,6 @@
         ]
     },
     "devDependencies": {
-        "gh-pages": "^3.2.2"
+        "gh-pages": "^3.2.3"
     }
 }
